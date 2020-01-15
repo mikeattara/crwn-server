@@ -1,0 +1,32 @@
+{
+  "name": "crwn-server",
+  "version": "1.0.0",
+  "description": "A graphql server for a fictional e-commerce application",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon --exec ts-node src/server.ts -e ts,graphql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeattara/crwn-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeattara/crwn-server/issues"
+  },
+  "homepage": "https://github.com/mikeattara/crwn-server#readme"
+}
