@@ -1,5 +1,3 @@
-const defaultPort = 4000;
-
 interface Config {
   apollo: {
     introspection: boolean;
@@ -7,6 +5,8 @@ interface Config {
   };
   port: number | string;
 }
+
+const defaultPort = 4000;
 
 export const config: Config = {
   apollo: {
